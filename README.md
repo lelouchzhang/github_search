@@ -1,24 +1,4 @@
-# github_search
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 小练习总结
+  - 页面的展示阶段通过状态控制:初始化时,开始搜索,搜索成功,搜索失败时,页面应渲染哪些信息,需要仔细思考
+  - 结合上面一条,对于参数的传递,使用对象无疑是最优解.无论是语义化,还是解构覆盖,亦或是对象内的无序化,都可方便使用和维护.
+  - bootstrap引入失败,原因不明,日后有时间系统学习bs框架后再说吧
